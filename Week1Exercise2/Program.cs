@@ -21,7 +21,7 @@ namespace Week1Exercise2
             //Prompts for user's age
             Console.WriteLine("What is your age?");
             //Stores user's input for age
-            string age = Console.ReadLine();
+            int age = Convert.ToInt32(Console.ReadLine());
             //Prompts for user's favorite color
             Console.WriteLine("What is your favorite color?");
             //Stores user's input for favorite color
